@@ -1,0 +1,35 @@
+$background-color: #cecccc;
+$sidebar-background-color: #464f51;
+$login-button-color: #f4d35e;
+$logout-button-color: #ee964b;
+
+* {
+	margin: 0;
+}
+
+.white {
+	color: white;
+}
+
+body {
+	background-color: $background-color;
+	min-height: 100vh;
+}
+
+.sidebar {
+	background-color: $sidebar-background-color;
+	border-radius: 10px;
+	margin: 15px;
+	min-width: 200px;
+	padding: 15px;
+	height: fit-content;
+}
+
+.home {
+	display: flex;
+	flex-direction: row;
+}
+
+.content {
+	margin: 15px;
+}
